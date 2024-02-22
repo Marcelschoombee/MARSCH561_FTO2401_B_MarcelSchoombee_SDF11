@@ -36,7 +36,7 @@
         <button class="px-4 py-2 text-ms font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
     </div>
     <button class="md:hidden" id="mobile-menu-toggle">
-        <svg xmls="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="h-6 w-8" >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="h-6 w-8" >
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M4 6h16M4 12h16M4 18h16" ></path>
         </svg>
     </button>   
@@ -52,6 +52,7 @@
     <!-- Component 1 end -->
 
     <!-- Component 2 Start -->
+    
     <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
         <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
             <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey">
@@ -128,7 +129,7 @@
     </div>
     <script>
         document
-        .getElementbyId("mobile-menu-toggle")
+        .getElementById("mobile-menu-toggle")
         .addEventListener("click", function () {
             document.getElementById("mobile-menu").classList.toggle("hidden");
         });
