@@ -1,16 +1,7 @@
-# Installation
+SDF11 slide how link:
 
-```
-# Install dependencies
-npm install
+https://docs.google.com/presentation/d/1in8pQTMKt0d1aCM5ykrpPf1OFFrzyiOGYuujAxhvjn4/edit?usp=sharing
 
-# Start the development server with live preview using Browsersync
-npm run browsersync
+SDF11 loom presentation:
 
-# Compile Tailwind CSS
-npm run build
-
-# Compile Tailwind CSS minified
-npm run build-minify
-
-```
+https://www.loom.com/share/06c84e230e4848bcb777ec4e449a4d0e?sid=5254f281-8a7e-4693-937c-00a1e032ec95
